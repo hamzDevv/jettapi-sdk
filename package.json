@@ -1,0 +1,32 @@
+{
+    "name": "jettapi-sdk",
+    "version": "1.0.0",
+    "description": "Official JettApi SDK",
+    "keywords": ["api", "sdk", "jettapi"],
+    "homepage": "https://github.com/hamzDevv/jettapi-sdk#readme",
+    "bugs": {
+        "url": "https://github.com/hamzDevv/jettapi-sdk/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hamzDevv/jettapi-sdk.git"
+    },
+    "license": "ISC",
+    "author": "hamz",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "axios": "^1.16.1",
+        "form-data": "^4.0.5"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "files": ["index.js"],
+    "exports": {
+        ".": "./index.js"
+    }
+}
