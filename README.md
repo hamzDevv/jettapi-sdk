@@ -13,7 +13,7 @@ Simple and dynamic API wrapper for Jett API.
 
 ## Installation
 ```bash
-npm install jettapi
+npm install jettapi-sdk
 ```
 
 ## Usage
