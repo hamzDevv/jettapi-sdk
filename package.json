@@ -1,8 +1,12 @@
 {
     "name": "jettapi-sdk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Official JettApi SDK",
-    "keywords": ["api", "sdk", "jettapi"],
+    "keywords": [
+        "api",
+        "sdk",
+        "jettapi"
+    ],
     "homepage": "https://github.com/hamzDevv/jettapi-sdk#readme",
     "bugs": {
         "url": "https://github.com/hamzDevv/jettapi-sdk/issues"
@@ -25,7 +29,9 @@
     "engines": {
         "node": ">=18"
     },
-    "files": ["index.js"],
+    "files": [
+        "index.js"
+    ],
     "exports": {
         ".": "./index.js"
     }
